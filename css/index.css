@@ -1,0 +1,79 @@
+.error{
+	color: #FF0000;
+}
+
+#signupbtnbox a:hover{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+.openid_btn{
+	-webkit-background-clip: border-box;
+	-webkit-background-origin: padding-box;
+	-webkit-background-size: auto;
+	background-attachment: scroll;
+	background-clip: border-box;
+	background-color: rgb(25, 85, 141);
+	background-image: url(../images/bluebar.gif);
+	background-origin: padding-box;
+	background-size: auto;
+	border-bottom-color: rgb(6, 44, 80);
+	border-bottom-left-radius: 3px;
+	border-bottom-right-radius: 3px;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-image-outset: 0px;
+	border-image-repeat: stretch;
+	border-image-slice: 100%;
+	border-image-source: none;
+	border-image-width: 1;
+	border-left-color: rgb(25, 85, 141);
+	border-left-style: solid;
+	border-left-width: 1px;
+	border-right-color: rgb(25, 85, 141);
+	border-right-style: solid;
+	border-right-width: 1px;
+	border-top-color: rgb(25, 85, 141);
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+	border-top-style: solid;
+	border-top-width: 1px;
+	color: rgb(255, 255, 255);
+	cursor: pointer;
+	display: inline-block;
+	font-family: 'Helvetica Neue', Arial, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	height: 19px;
+	line-height: 17.90625px;
+	margin: 0 5px 0 0;
+	min-width: 40px;
+	padding-bottom: 3px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 3px;
+	text-align: center;
+	text-decoration: none;
+	text-shadow: rgb(25, 85, 141) 0px -1px 0px;
+	width: 77px;
+	zoom: 1;
+}
+
+.facebook_button:before {
+	content: url(../images/icons/facebook.gif);
+	vertical-align: middle;
+}
+.google_button:before {
+	content: url(../images/icons/google.png);
+	vertical-align: middle;
+}
+.linkedin_button:before {
+        content: url(../images/icons/linkedin.png);
+	vertical-align: middle;
+}
+.orSeparator{
+	margin: 15px auto;
+	clear: both;
+	height: 10px;
+	background: url('../images/common.png') -360px -145px no-repeat;
+}

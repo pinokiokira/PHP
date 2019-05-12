@@ -1,0 +1,155 @@
+<!DOCTYPE html><style media="all" type="text/css">body {background:none}</style></head><body id="body"><div class="maincontent"><div class="maincontentinner"><br/><br/>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>SoftPoint | VendorPanel</title>
+<link rel="stylesheet" href="css/style.default.css" type="text/css" />
+<link rel="stylesheet" href="css/jquery.ui.css" type="text/css" />
+<link rel="stylesheet" href="css/responsive-tables.css">
+
+<link rel="stylesheet" href="css/bootstrap-timepicker.min.css" type="text/css" />
+<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+<script type="text/javascript" src="js/jquery-migrate-1.1.1.min.js"></script>
+<script type="text/javascript" src="js/jquery-ui-1.9.2.min.js"></script>
+<script type="text/javascript" src="js/modernizr.min.js"></script>
+<script type="text/javascript" src="js/jquery.alerts.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/jquery.cookie.js"></script>
+<script type="text/javascript" src="js/jquery.uniform.min.js"></script>
+<script type="text/javascript" src="js/flot/jquery.flot.min.js"></script>
+<script type="text/javascript" src="js/flot/jquery.flot.resize.min.js"></script>
+<script type="text/javascript" src="js/responsive-tables.js"></script>
+<script type="text/javascript" src="js/custom.js"></script>
+<script type="text/javascript" src="js/elements.js"></script>
+<script type="text/javascript" src="prettify/prettify.js"></script>
+<script type="text/javascript" src="js/jquery.printElement.min.js"></script>
+<style type="text/css">
+/*#order_frm input[type="text"]{
+  border-bottom-left-radius:0;
+  border-bottom-right-radius:0;
+  border-top-left-radius:0;
+  border-top-right-radius:0;
+  color:#555555;
+  display:inline-block;
+  font-size:12px;
+  margin-bottom:0px;
+  padding:0px;
+  vertical-align:middle;
+  width:100%;
+}
+.itm_inpt{
+text-align:right;}*/
+
+@media print {
+   body {
+      -webkit-print-color-adjust: exact;
+   }
+}
+
+/*.widgettitle{
+   background-color: #0866c6 !important;
+   color: white !important;   
+}
+
+.table_td{
+	background-color: #333 !important;
+	color: #fff !important; 
+}*/
+</style>
+</head>
+<div class="row-fluid">   
+	<h3 align="left">Order Details</h3>
+	<hr>
+	<form action="" method="post" name="order_frm" id="order_frm">
+			<div class="span4" style="width:50%;">
+				<div class="clearfix" style="border: 1px solid"> 
+                    <h4 class="widgettitle">Aint Nicks Tavern</h4>			
+				</div> 
+                <table class="table table-bordered responsive" >
+                   
+                    <tr><td style='border:1px solid !important;padding-left:5px;font-weight:bolder;'>
+						6025 North 27th Avenue&nbsp;<br />
+                        Phoenix, AZ 85017&nbsp;<br />
+                    	(602) 242-2345&nbsp;<br />
+                    	&nbsp;
+                    </td></tr>
+				</table>
+				<br />
+				<div class="clearfix" style="border: 1px solid"> 
+                    <h4 class="widgettitle">Peddler's Son</h4>		
+				</div>
+                <table class="table table-bordered responsive">
+                    <tr><td style='border:1px solid !important;padding-left:5px;font-weight:bolder;'>
+						3120 W. Carefree Hwy &nbsp;<br />
+                    	Phoenix, AZ 85086&nbsp;<br />
+                        520-841-1349&nbsp;<br />
+                    	Mike Rassmusen&nbsp;	
+                    </td></tr>
+				</table>
+				<br />
+            </div>
+			<div class="span4" style="width:50%;margin:0;padding-left:12px;">
+				<div class="clearfix" style="border: 1px solid"> 
+					<h4 class="widgettitle">Order Details</h4>			
+				</div>
+                <table class="table table-bordered responsive">
+                    <tr>
+					  <td style='border:1px solid !important;padding-left:5px;font-weight:bolder;'>
+					    <b>Status:</b>&nbsp;&nbsp;Completed<br />
+						<b>PO:</b>&nbsp;&nbsp;&nbsp;80023658-99<br />
+						<b>Terms:</b>&nbsp;&nbsp;1% 10 Net 30<br />
+						<b>Order Date:</b>&nbsp;&nbsp;01/23/2019<br />
+						<b>Completed Date:</b>&nbsp;&nbsp;<br />
+						<b>Employee:</b>&nbsp;&nbsp; <br />
+						<b>Comments:</b>&nbsp;&nbsp;Description about the products or a reminder for them.					  </td>
+					</tr>
+			  </table>
+            </div>
+			<br />
+			<table id="licence_table" class="table table-bordered responsive">
+							
+							<thead>
+								<tr class="table_tr">
+								<th style='border:1px solid !important;padding-left:5px;font-weight:bolder;' class='table_td'>Item</th>
+								<th style='border:1px solid !important;padding-left:5px;font-weight:bolder;' class='table_td'>Type</th>
+								<th style='border:1px solid !important;padding-left:5px;font-weight:bolder;' class='table_td'>Qty</th>
+								<th style='border:1px solid !important;padding-left:5px;font-weight:bolder;' class='table_td'>Price</th>
+								<th style='border:1px solid !important;padding-left:5px;font-weight:bolder;' class='table_td'>Amount</th>
+								</tr>
+							</thead>
+							<tbody>
+                            								<tr class="line1">
+									<td style='border:1px solid !important;padding-left:5px;height:30px;text-align:left;' class="purchase_td">WATER LEMONGRASS GINGER VERDAY</td>
+									<td style='border:1px solid !important;padding-left:5px;height:30px;text-align:left;' class="purchase_td">
+										12, 6, 10, 37									</td>
+									<td style='border:1px solid !important;padding-left:5px;height:30px;text-align:right;' class="purchase_td"></td>
+									<td style='border:1px solid !important;padding-left:5px;height:30px;text-align:right;' class="purchase_td">0.00</td>
+									<td style='border:1px solid !important;padding-left:5px;height:30px;text-align:right;' class="purchase_td">0.00</td>
+								</tr>
+																<tr class="line2">
+									<td style='border:1px solid !important;padding-left:5px;height:30px;text-align:left;' class="purchase_td">WATER WAIAKEA 24/500ML</td>
+									<td style='border:1px solid !important;padding-left:5px;height:30px;text-align:left;' class="purchase_td">
+										24, 37, 10, 37									</td>
+									<td style='border:1px solid !important;padding-left:5px;height:30px;text-align:right;' class="purchase_td"></td>
+									<td style='border:1px solid !important;padding-left:5px;height:30px;text-align:right;' class="purchase_td">0.00</td>
+									<td style='border:1px solid !important;padding-left:5px;height:30px;text-align:right;' class="purchase_td">0.00</td>
+								</tr>
+																<tr>
+									<td colspan="4" style='border:1px solid !important;padding-left:5px;height:30px;text-align:right;'>Sub Total: </td>
+									<td style='border:1px solid !important;padding-left:5px;height:30px;text-align:right;'>0.00</td>
+								</tr>
+								<tr>
+									<td colspan="4" style='border:1px solid !important;padding-left:5px;height:30px;text-align:right;'>Tax: </td>
+									<td style='border:1px solid !important;padding-left:5px;height:30px;text-align:right;'>0.00</td>
+								</tr>
+								<tr>
+									<td colspan="4" style='border:1px solid !important;padding-left:5px;height:30px;text-align:right;'>Total: </td>
+									<td style='border:1px solid !important;padding-left:5px;height:30px;text-align:right;'>0.00</td>
+								</tr>
+						   </tbody>
+						   </form>
+				</table>
+	<hr>
+</div>
+</html></div></div></body></html>

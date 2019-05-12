@@ -1,0 +1,39 @@
+﻿.dateLists_container{
+
+}
+
+.dateLists_container .day_container{
+	
+}
+
+.dateLists_container .day_container .list{
+    
+}
+
+.dateLists_container .month_container{
+	float:left;
+}
+
+.dateLists_container .month_container .list{
+    margin-right:10px;
+}
+
+.dateLists_container .year_container{
+	float:left;
+}
+
+.dateLists_container .year_container .list{
+	margin-right:10px;
+}    
+
+.test_fld_container {
+    margin-top:30px;
+    width:300px;
+    
+}
+    
+.test_fld_container #test_fld{
+    display:block !important;
+    position:absolute;
+    margin-top:-30px;
+}

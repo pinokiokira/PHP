@@ -1,0 +1,52 @@
+
+#timecard_tabs ul{ }
+#timecard_tabs ul li{float:left; display:inline-block; height:40px; background:#0866c6; }
+#timecard_tabs ul li a{float:left; display:inline-block; height:21px;}
+
+/*
+#timecard_tabs ul li{ height:85px; }
+#timecard_tabs ul li a{ height:65px }
+#timecard_tabs ul li.menus{height:100%: }
+#timecard_tabs ul li.menus a{width:80px; }
+*/
+@media screen and (max-width: 1600px) {
+    #timecard_tabs ul{ 
+        margin-bottom: 25px;
+    }   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
